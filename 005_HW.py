@@ -83,4 +83,11 @@
 # tuple_list.sort(reverse = True, key=max_memb) # გავაკეთე სორტირება მაქსიმუმის არჩევით
 # print('Sorted Tuples : ', tuple_list)
 
+####### სავარჯიშო 7 : დაწერეთ პროგრამა ტუპლების დასალაგებლად მათი მაქსიმალური ელემენტის მიხედვით
+# def max_memb(x):
+#     return max(x)
+# tuple_list = [(30, 15, 7, 4), (1, 5, 9, 2), (1, 5), (1, 4, 9, 2), (1, 0), (1, 1, 0), (1, 1, 1, 0), (1, 0, 0)]
+# print('original list: ', tuple_list)
+# tuple_list.sort(reverse = True, key=max_memb) # გავაკეთე სორტირება მაქსიმუმის არჩევით
+# print('Sorted Tuples : ', tuple_list)
  
