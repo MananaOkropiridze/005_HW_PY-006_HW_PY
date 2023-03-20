@@ -98,3 +98,25 @@
 # f.write(my_text)
 # f.close()
 
+
+
+###### 6) პროგრამამ უნდა დათვალოს ფაილში სტრინგების და სიმბოლოების რაოდენობა.
+# import os 
+# f = open('text1.txt', 'r')
+# data = f.read()
+# strings = data.split()
+# string_num = len (strings)
+# print('String numbers in "text1.txt": ', string_num)
+# f.close()
+
+# f = open('text1.txt', 'r')
+# lines = len (f.readlines())
+# print ('Line numbers in "text1.txt": ', lines)
+# f.close()
+
+# f = open('text1.txt', 'r')
+# data = f.read().replace(' ', '')
+# char_num = len (data)
+# print('Charecter numbers in "text1.txt": ', char_num - lines + 1)
+# f.close()
+
